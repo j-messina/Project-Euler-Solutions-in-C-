@@ -1,1 +1,1 @@
-# Project-Euler-Solutions-in-C-
+# Project-Euler-Solutions-in-C
