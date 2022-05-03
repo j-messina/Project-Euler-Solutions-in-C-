@@ -1,0 +1,34 @@
+#include <iostream>
+
+// Find the largest palindromic number that is the product of two three digit numbers
+void largest_2Dig_Palindrome();
+
+int main()
+{
+  largest_2Dig_Palindrome();
+  return 0;  
+}
+
+/*
+Plan:
+1) Proof of concept: Make a function for finding the largest palindrome product of two 2-digit numbers, since it's given: 9009
+
+I see multiple routes:
+Option 1: Brute force it, going through each product starting from 99 x 99, as if running throught a giant times-table, and checking to see if the product is palindromic
+
+Big O = ?
+
+Option 2 (maybe faster): Start from the upper limit of the largest product of two 2-digit numbers, and, going down by one...
+  - Check if the number is composite
+  - If yes, check if it is divisible by a number between 99 and 10
+  - If yes again, check if that factor's partner is also between 99 and 10
+
+Big O = ?
+
+2) Implement for two 3-digit numbers...
+*/
+
+void largest_2Dig_Palindrome()
+{
+
+}
